@@ -1,4 +1,1 @@
-python-telegram-bot==20.7
-gspread
-oauth2client
-requests
+pyTelegramBotAPI==4.12.0
