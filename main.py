@@ -1,4 +1,3 @@
-
 import telebot
 from config import BOT_TOKEN
 
@@ -10,6 +9,6 @@ def send_welcome(message):
 
 @bot.message_handler(commands=['status'])
 def check_status(message):
-    bot.reply_to(message, "🚀 We're currently processing your request. Please wait up to 30 minutes after submitting the form and payment.")
+    bot.reply_to(message, "⏳ We're currently processing your request. Please wait up to 30 minutes after submitting the form and payment.")
 
 bot.polling()
